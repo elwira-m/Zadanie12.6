@@ -1,6 +1,18 @@
 body {
-	background-color: #e5bcd5;
+	background-color: #adbaa3;
+	text-align: center;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
 h1 {
-	margin-left: 20px;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+ol {
+	text-align: left;
+	width: 230px;
+	margin: 0 auto;
 }

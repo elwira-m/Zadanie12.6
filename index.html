@@ -2,22 +2,32 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Zadanie 12.4 (zapytanie do serwera)</title>
+    <title>Zadanie 12.6 (country-search-engine)</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
  
- <body>
+  <body>
+
+    <section class='container search'>
+
+      <h1>Country search engine</h1>
+      <input id="country-name" type="text" /> 
+      <button id="search">Search a country</button>
+
+    </section>
+
+	  <section class='container countries'>
+
+	    <h2>List of countries</h2>
+		  <ol id="countries">
+			  <li>No data</li>
+      </ol>
+
+    </section>	
   
-	 <h1>Country search engine</h1>
-		<button id="search">Search a country</button>
-		<input id="country-name" type="text" />
-	<h2>List of countries</h2>
-		<ul id="countries">
-			<li>No data</li>
-		</ul>	
-  
-     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
+
